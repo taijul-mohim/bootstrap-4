@@ -1,0 +1,22 @@
+.container{
+    margin-top: 50px;
+    padding-left:10px ;
+    background-color: coral;
+    display: flex;  
+    flex-direction: row-reverse;
+    /* flex-direction row-reverse it change row positinon like left and right */
+    /* display: inline-flex; */
+/* inline-flex make divs small */
+   
+}
+/* <!-- when use display flex all itme going into row --> */
+
+.itme{
+    padding: 30px;
+    margin: 10px;
+    background-color: #777;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+
+}
