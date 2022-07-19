@@ -3,10 +3,19 @@
     padding-left:10px ;
     background-color: coral;
     display: flex;  
-    flex-direction: row-reverse;
-    /* flex-direction row-reverse it change row positinon like left and right */
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* its help to responsive */
+
+    /* flex-direction: row-reverse; */
+    /* flex-direction row-reverse it change row positinon like left and right and also change item position */
     /* display: inline-flex; */
 /* inline-flex make divs small */
+
+justify-content: end;
+/* justify-content end ; its help to change position without changing items position */
+
+
    
 }
 /* <!-- when use display flex all itme going into row --> */
