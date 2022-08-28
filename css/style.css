@@ -2,3 +2,40 @@
     background-image: url('../img/banner-img.jpg');
     background-size: cover;
   }
+
+  /* softwore section */
+.card{
+  box-shadow: 2px 3px 20px gray;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 450px;
+  border: 1px solid black;
+  margin:10px;
+  align-items:center;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 15px;
+  background: linear-gradient(to top,rgb(255,45,45)50%,white 50%);
+  background-size: 100% 200%;
+  transition:  all .8s;
+}
+.box:hover{
+  background-position: left bottom;
+  color: aliceblue;
+  border: none;
+  box-shadow: 0 0 20px rgb(255,45,45);
+}
+.box img{
+  width: 80px;
+  height: 80px;
+  background-color: aliceblue;
+  padding: 10px;
+}
+.clint{
+  box-shadow: 2px 3px 20px gray;
+
+  
+}
